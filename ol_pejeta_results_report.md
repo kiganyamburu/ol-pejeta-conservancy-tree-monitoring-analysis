@@ -63,6 +63,10 @@ At the same time, average height and length increased between years:
 
 Height and length were very strongly related, with a correlation of 0.972. This means taller seedlings and trees also tended to be longer, which is exactly the kind of tight relationship expected in these measurements.
 
+### Height and Length by Height Class
+
+The strongest height and length variation occurred across the lower and middle height classes, where the bulk of the density records were concentrated. Taller classes had fewer records, so the estimates there are less stable, but the overall pattern still shows height and length increasing together across classes in both years.
+
 ## Ant Interaction
 
 Crematogaster ants, defined here as BBR, RRB, TP, and AB, were present in a minority of records.
@@ -71,6 +75,15 @@ Crematogaster ants, defined here as BBR, RRB, TP, and AB, were present in a mino
 - 2025 occupancy: 16.21 percent
 
 Ant presence was significantly associated with damage status in the density data. That does not by itself prove causality, but it does show that ant occupancy and damage are not independent in this dataset.
+
+## Damage Variation Between 2023 and 2025
+
+Damage intensity in the density data was higher in 2023 than in 2025.
+
+- 2023 damage rate: 86.28 percent
+- 2025 damage rate: 50.66 percent
+
+Among damaged records, rhino remained the leading damager in both years, while the share attributed to drought or natural drying was lower in 2025 than in 2023.
 
 ## Rainfall Context
 
@@ -98,5 +111,24 @@ The most important patterns are:
 - Missing should not be treated as dead in any mortality estimate.
 - Drought was grouped with natural drying damage where applicable.
 - Some records in the tagged-tree file remain ambiguous because the status coding was mixed across explicit labels, missing heights, and comments.
+
+## Objective Coverage Check
+
+All major objectives from the brief are now addressed in the report:
+
+- Tagged-tree growth and mortality rates are summarized.
+- Counts of alive, dead, and missing trees are reported.
+- Mean height change and its significance are reported.
+- Height-class representation is described.
+- Rainfall context is included.
+- Excluded and non-excluded zones are compared.
+- Major damagers, damage height, and damager-height relationships are reported.
+- Damage variation between 2023 and 2025 is reported.
+- Density change and its significance are reported.
+- Average height and length, plus their relationship, are reported.
+- Height-class variation in the density data is discussed.
+- Crematogaster occupancy and its association with damage are reported.
+
+The only item that remains interpretive rather than fully modeled is rainfall influence, because the available data support contextual interpretation more strongly than a formal causal model.
 
 If you want this turned into a fully formatted Word-style report with tables and figure captions, I can produce that next.
