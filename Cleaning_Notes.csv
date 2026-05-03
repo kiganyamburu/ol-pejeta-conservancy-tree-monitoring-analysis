@@ -1,0 +1,7 @@
+Item,Value
+Source workbook,Acacia Monitoring Data-2023-2025.xlsx
+Tagged-tree cleaning,Numeric heights parsed; damager/ants/status standardized; helper status columns added
+Density cleaning,Numeric height/length/ratio parsed; damager/ants/damage fields standardized
+Mortality rule,Missing is excluded from mortality; missing is not treated as dead
+Drought rule,Drought and natural drying mapped to Drought/Natural
+Analysis years,2023 and 2025 used for comparisons; source file retained all rows
