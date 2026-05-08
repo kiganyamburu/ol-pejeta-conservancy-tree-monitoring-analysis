@@ -1,0 +1,38 @@
+Damage rate by year (Density):
+2023: 86.28%
+2025: 50.66%
+
+Damager composition by year among damaged records (%):
+damager_std  Droghut  Drought/Natural  Elephant  Giraffe    No  Other  Rhino  Stepped on  girrafe
+Year                                                                                             
+2023            0.00            14.23     12.13     0.95  0.00  22.09  50.53        0.06     0.00
+2025            0.08             3.39     17.53     1.86  0.08  17.87  58.85        0.00     0.34
+
+Crematogaster species counts by year (expanded records):
+species   AB  BBR  RRB   TP
+Year                       
+2023     111  149  247   70
+2025      94   86   93  149
+
+Ant species x damager (expanded records):
+damager_std  Droghut  Drought/Natural  Elephant  Giraffe  No  Other  Rhino  Stepped on  girrafe
+species                                                                                        
+AB                 0               14        52        1   0     34     68           0        1
+BBR                0               28        34        7   0     42     68           0        0
+RRB                1               29        88       16   2     45    117           1        2
+TP                 0               22        49       10   0     29     49           0        2
+Chi-square p=0.05605
+
+Tagged: Damager x tree height class:
+hclass           0-0.5m  0.5-1m  1-2m  2-3m  >3m
+damager_std                                     
+DEAD                  3      11    27    18   22
+Drought/Natural       3       4    26    19    7
+Elephant             69     109   238   223  158
+Giraffe               7       5   122    64   12
+MISSING               3       3     3     3    4
+Other                48       9    74    34   57
+Rhino               147      70   130    37    6
+Chi-square p=9.3e-76 (filtered major damagers)
+
+Drought/Natural tagged records: 59
