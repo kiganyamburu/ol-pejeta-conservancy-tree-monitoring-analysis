@@ -1,0 +1,76 @@
+OL PEJETA V. DREP ANALYSIS SUMMARY (from provided workbook + rainfall)
+
+1) TAGGED TREES: BASELINE AND STATUS
+- Baseline trees with 2023 height: 1949
+- 2025 status among baseline: alive=1719, dead=167, missing=49, unknown=14
+- Mortality rate excluding missing (per your instruction): 8.79%
+
+2) GROWTH (ALIVE TREES WITH BOTH HEIGHTS)
+- N=1719
+- Mean change 2023->2025: 0.09 cm (median 6.00 cm)
+- Paired t-test: t=0.072, p=0.9426
+
+3) HEIGHT-CLASS REPRESENTATION
+- 2023 baseline counts: 0-0.5m:353, 0.5-1m:218, 1-2m:730, 2-3m:364, >3m:284
+- 2025 alive counts: 0-0.5m:358, 0.5-1m:210, 1-2m:594, 2-3m:380, >3m:243
+
+4) EXCLUDED VS NON-EXCLUDED
+- Growth by zone (mean cm):
+  - Excluded: n=98, mean=14.28, median=22.00
+  - Non-excluded: n=1621, mean=-0.77, median=5.50
+- Mortality by zone (excluding missing):
+  - Excluded: baseline=100, dead=1, missing=1, mortality=1.01%
+  - Non-excluded: baseline=1848, dead=166, missing=48, mortality=9.22%
+
+5) MAJOR DAMAGERS (TAGGED TREES)
+- Elephant: 797 records
+- Rhino: 390 records
+- Other: 222 records
+- Giraffe: 210 records
+- Dead: 82 records
+- Drought/Natural: 59 records
+- Missing: 16 records
+
+6) DAMAGE HEIGHT VS DAMAGER
+- Elephant: n=794, mean damage height=138.8 cm, median=135.5 cm
+- Rhino: n=389, mean damage height=63.0 cm, median=57.0 cm
+- Other: n=222, mean damage height=134.4 cm, median=121.0 cm
+- Giraffe: n=210, mean damage height=159.1 cm, median=152.5 cm
+- Drought/Natural: n=58, mean damage height=137.6 cm, median=129.0 cm
+- Dead: n=0, mean damage height=nan cm, median=nan cm
+- Missing: n=0, mean damage height=nan cm, median=nan cm
+
+7) DENSITY (20x20m QUADRAT -> per ha)
+- 2023: plots=41, mean density=2573.2/ha, median=2000.0/ha
+- 2025: plots=29, mean density=2292.2/ha, median=1600.0/ha
+- Mean density change (2025-2023): -280.9/ha
+- Paired t-test matched plots: t=-2.583, p=0.01531, n=29
+
+8) HEIGHT/LENGTH IN DENSITY DATA
+- 2023: mean height=39.73 cm, mean length=49.67 cm
+- 2025: mean height=53.39 cm, mean length=67.21 cm
+- Height-length Pearson correlation (2023+2025 pooled): r=0.972
+
+9) CREMATOGASTER OCCUPANCY (BBR, RRB, TP, AB)
+- 2023: 13.60% of records with Crematogaster ants
+- 2025: 16.21% of records with Crematogaster ants
+
+10) ANTS VS DAMAGE
+- Chi-square test: chi2=43.005, p=5.46e-11
+- Crosstab [crema_present x damage_yes]:
+damage_yes     False  True 
+crema_present              
+False           1701   4173
+True             190    815
+
+11) RAINFALL CONTEXT
+- Annual rainfall 2023: 839.4 mm
+- Annual rainfall 2024: 1120.8 mm
+- Annual rainfall 2025: 1040.4 mm
+- Annual rainfall 2026: 8.8 mm
+- Note: tagged-tree sheet has only a 2023->2025 interval, so rainfall influence can be interpreted directionally (contextual), not as a robust time-series regression.
+
+12) DATA QUALITY NOTES
+- 2025 status coding is mixed (explicit DEAD/MISSING plus blank 2025 heights with notes).
+- Mortality above excludes rows classified as missing, as requested.
+- Some records remain unknown where 2025 height is blank and no clear dead/missing cue exists.
